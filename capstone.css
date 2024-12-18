@@ -148,6 +148,27 @@ p{
     font-style: Archivo;
     margin: 0px;
 }
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 48px 8px 48px;
+  }
+  .footer-text{
+   gap: 32px;
+  }
+  .contact-button {
+    color:#000000;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .contact-button:hover {
+    background-color: rgba(214, 221, 230, 0.1);
+    transform: scale(1.05);
+  }
 
 
 
