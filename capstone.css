@@ -1,175 +1,185 @@
-body{
+body {
     padding: 0;
     margin: 0;
-   
-   
+    font-family: 'DotGothic16';
+    box-sizing: border-box;
 }
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding: 10px ; 
-    font-family: 'DotGothic16';   
-   
+    border-bottom: 0.2vh solid black;
+    padding: 2vh 3vw;
+    font-family: 'DotGothic16';
+    font-size: 2vw;
 }
-.header2{
+
+.header2 {
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 2vw;
     font-family: 'DotGothic16';
+    font-size:2vw ;
+    font-weight: 400;
 }
-h1{
+
+h1 {
     font-family: 'DotGothic16';
     font-weight: 400;
     text-align: center;
+    margin: 2vh 0;
+}
 
-    
-   
-    
+.main {
+    padding: 5vh 5vw;
 }
-.main{
-    padding: 48px;
-}
-.main-header{
+
+.main-header {
     text-align: center;
     font-weight: 400;
-    font-size: x-large;
-
-
+    font-size: 3vh;
 }
-.main-header img{
+
+.main-header img {
     width: 100%;
-    border-radius: 20px;
-    margin-bottom: 40px;
-    border: 1px solid #00000000;
-  
-    
-
-    
+    border-radius: 2vh;
+    margin-bottom: 5vh;
+    border: 0.1vh solid transparent;
 }
-.main-grid{
+
+.main-grid {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 1.5rem;
-    
-    
-    
+    gap: 3vw;
 }
 
-    
-    
+h4 {
+    line-height: 2vh;
+    font-size: 2vh;
+    font-family: "Archivo";
+    margin-top: 0;
+    font-weight: 400;
+    margin-bottom: 0;
+}
 
-h4{
-    line-height: 24%;
-    font-size: 20px;
-    font-family: 
-    "Archivo";
-    
-    margin-top: 10%;
+p {
+    line-height: 2.4vh;
+    font-size: 1.8vh;
+    font-family: "Archivo";
     font-weight: 400;
+    margin-top: 0;
 }
-p{
-    line-height: 24%;
-    font-size: 17px;
-    font-family: 
-    "Archivo";
-    font-weight: 400;
-   
-}
-.item img{
+
+.item img {
     width: 100%;
 }
-.main-caption{
-    
-    
-    width: 50vw;
-    margin-top: 2em;
-    font-family: 'DotGothic16'; 
-    font-size: 20px;  
+
+.main-caption {
+    width: 45vw;
+    margin-top: 3vh;
+    font-family: 'DotGothic16';
+    font-size: 2vh;
     font-weight: 400;
     color: #000000;
-
-   
+    margin-bottom: 5vh;
 }
-.second-grid{
-    display:flex;
+
+.second-grid {
+    display: flex;
+    flex-wrap: wrap;
     width: 90vw;
     justify-content: space-between;
 }
-.second-grid img{
+
+.second-grid img {
     width: 42vw;
     margin-bottom: 2vh;
 }
-.third-grid{
+
+.third-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+    gap: 5vw;
     margin-bottom: 2vh;
-    gap: 12vw;
-
 }
-.fourth-grid{
-    display:flex;
+
+.fourth-grid {
+    display: flex;
+    flex-wrap: wrap;
     width: 90vw;
     justify-content: space-between;
 }
-.fourth-grid img{
+
+.fourth-grid img {
     width: 42vw;
     margin-bottom: 2vh;
 }
-.fifth-item img{
+
+.fifth-item img {
     height: 30vw;
 }
-.fifth-grid{
+
+.fifth-grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    margin-bottom: 1vh;
-
+    gap: 2vw;
+    margin-bottom: 2vh;
 }
-.sixth-item{
+
+.sixth-item {
     width: 90vw;
     text-align: right;
     padding: 0;
 }
-.sixth-item img{
+
+.sixth-item img {
     width: 70vw;
 }
-.sixth-grid{
-    display:flex;
+
+.sixth-grid {
+    display: flex;
+    flex-wrap: wrap;
     width: 90vw;
     justify-content: space-between;
-
 }
-.sixth-grid img{
+
+.sixth-grid img {
     width: 42vw;
     margin-bottom: 2vh;
 }
-.third-grid div{
-    font-size: 14px;
-    font-style: Archivo;
+
+.third-grid div {
+    font-size: 1.5vh;
+    font-family: "Archivo";
     margin: 0px;
 }
-footer{
+
+footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 96px 48px 8px 48px;
-  }
-  .footer-text{
-   gap: 32px;
-  }
-  .contact-button {
-    color:#000000;
-    border: 1px solid #000000;
-    border-radius: 8px;
-    padding: 12px 24px;
-    font-size: 12px;
+    padding: 6vh 5vw 2vh 5vw;
+    align-items: center;
+   
+}
+
+.footer-text {
+   
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.contact-button {
+    color: #000000;
+    border: 0.1vh solid #000000;
+    border-radius: 1vh;
+    padding: 1vh 2vw;
+    font-size: 1.8vh;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  .contact-button:hover {
+}
+
+.contact-button:hover {
     background-color: rgba(214, 221, 230, 0.1);
     transform: scale(1.05);
-  }
-
-
-
+}
 
